@@ -35,9 +35,7 @@ int countWords(string str) {
 	int letterNumber = 0;
 	bool PreviousCharSpace = true;
 
-	for (int letterNum = 1;letterNum <= str.length(); letterNum++) {
-
-
+	for (int letterNum = 0;letterNum < str.length(); letterNum++) {
 
 		if (str[letterNum] == ' ') {
 			PreviousCharSpace = true;
